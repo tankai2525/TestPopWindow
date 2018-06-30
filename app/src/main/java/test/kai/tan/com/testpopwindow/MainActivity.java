@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv2.setOnClickListener(this);
         tv3.setOnClickListener(this);
 
-        //显示PopupWindow
+        //显示PopupWindow1
         View rootview = LayoutInflater.from(MainActivity.this).inflate(R.layout.activity_main, null);
 //        mPopWindow.showAtLocation(rootview, Gravity.TOP, 0, 0);
         mPopWindow.showAsDropDown(mMenuTv);
